@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.black_bg, .green_bg, .purple_bg {
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	outline: none;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.9s;
+	border: 9px solid #ffffff;
+	z-index: 1;
+}
+
+.black_bg{
+	background: #3b3c36;
+	box-shadow: 0 0 0 0 #3b3c36;
+}
+
+.green_bg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #006a4e;
+	box-shadow: 0 0 0 0 #006a4e;
+}
+
+.purple_bg{
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	background: #b768a2;
+	box-shadow: 0 0 0 0 #b768a2;
+}
+
+.black_bg:focus {
+	box-shadow: 0 0 0 100vh #3b3c36;
+	z-index: 0;
+}
+.green_bg:focus {
+	box-shadow: 0 0 0 100vh #006a4e;
+	z-index: 0;
+}
+.purple_bg:focus {
+	box-shadow: 0 0 0 100vh #b768a2;
+	z-index: 0;
+}
