@@ -41,7 +41,7 @@
 }
 
 .black_bg:focus {
-	box-shadow: 0 0 0 100vh #3b3c36;
+	box-shadow: 0 0 0 100vw #3b3c36;
 	z-index: 0;
 }
 .green_bg:focus {
